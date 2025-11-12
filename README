@@ -2,18 +2,24 @@
 
 Projeto simples feito para testar o **FastAPI** e o consumo de uma **API externa em JSON**.
 
+---
+
 ## 🚀 Como executar
 
 ```bash
 python -m venv venv
+
 venv\Scripts\activate
+
 pip install -r requirements.txt
-uvicorn main:app --reload
 
-Acesse no navegador:
-http://127.0.0.1:8000/docs
+uvicorn main:app --reload 
+``` 
 
-📡 Endpoints
+- Acesse no navegador: http://127.0.0.1:8000/docs
+
+
+## 📡 Endpoints
 
 GET /api/hello → Retorna uma mensagem simples
 
